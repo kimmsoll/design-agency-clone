@@ -1,0 +1,15 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.navBar__logo {
+  width: 80px;
+  height: 55px;
+}
+
+.navBar__menu > span {
+  margin-left: 80px;
+  font-size: 13px;
+}

@@ -1,0 +1,42 @@
+#img1 {
+  width: 570px;
+  height: 540px;
+}
+
+#img2,
+#img5,
+#img6 {
+  width: 370px;
+  height: 300px;
+}
+
+#img3,
+#img4,
+#img7 {
+  width: 370px;
+  height: 500px;
+}
+
+#img2,
+#img4,
+#img6 {
+  margin-bottom: 30px;
+}
+
+#man1,
+#man2 {
+  width: 370px;
+  height: 420px;
+}
+
+#room1,
+#room2,
+#room3 {
+  width: 370px;
+  height: 280px;
+}
+
+#contact {
+  width: 570px;
+  height: 470px;
+}

@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.header__text__title {
+  font-size: var(--title-size);
+  font-weight: var(--title-weight);
+  line-height: 70px;
+}
+
+.header__text__subtitle {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.header__text > button {
+  font-weight: 700;
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: var(--yellow);
+}
