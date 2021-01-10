@@ -63,3 +63,21 @@ header {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
+
+@keyframes appearImage {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.header__image {
+  animation: appearImage 4.5s ease-in;
+}

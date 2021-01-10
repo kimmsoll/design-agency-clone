@@ -40,6 +40,29 @@
   margin-right: 30px;
 }
 
+.portfolio__images--first,
+.portfolio__images--third {
+  animation: appearImage 1.5s ease-in-out;
+}
+
+.portfolio__images--second {
+  animation: appearImage 3s ease-in-out;
+}
+
+@keyframes appearImage {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .portfolio__button {
   margin: 65px 0px 250px 0px;
   display: flex;

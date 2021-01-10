@@ -7,10 +7,12 @@
   font-weight: var(--title-weight);
   margin-bottom: 65px;
   margin-top: 250px;
+  animation: appearImage 1s ease-in-out;
 }
 
 .blog__title__subtitle {
   margin-bottom: 65px;
+  animation: appearImage 2s ease-in-out;
 }
 
 .blog__title__subtitle,
@@ -24,6 +26,21 @@
 .blog__images {
   display: flex;
   justify-content: space-between;
+  animation: appearImage 3s ease-in-out;
+}
+
+@keyframes appearImage {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .blog__images__text {

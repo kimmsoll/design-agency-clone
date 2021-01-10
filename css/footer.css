@@ -35,3 +35,8 @@ body {
 .footer__btn {
   font-size: 12px;
 }
+
+#footer__btn:hover {
+  cursor: pointer;
+  font-weight: var(--title-weight);
+}
