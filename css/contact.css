@@ -121,6 +121,7 @@ textarea {
   display: flex;
   justify-content: center;
   font-size: var(--medium-size);
+  margin-bottom: 72px;
 }
 
 .contact__sns > i {

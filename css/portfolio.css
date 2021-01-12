@@ -30,14 +30,16 @@
 }
 
 .portfolio__images {
-  display: flex;
-  justify-content: space-between;
   margin-top: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio__images--first,
-.portfolio__images--second {
-  margin-right: 30px;
+.portfolio__images--second,
+.portfolio__images--third {
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio__images--first,
@@ -46,6 +48,7 @@
 }
 
 .portfolio__images--second {
+  margin: 0px 30px;
   animation: appearImage 3s ease-in-out;
 }
 

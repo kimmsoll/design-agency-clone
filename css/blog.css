@@ -11,11 +11,13 @@
 }
 
 .blog__title__subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
   margin-bottom: 65px;
   animation: appearImage 2s ease-in-out;
 }
 
-.blog__title__subtitle,
 .blog__images__text > h5,
 .blog__images__text > h6 {
   font-size: 12px;
@@ -25,7 +27,7 @@
 
 .blog__images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   animation: appearImage 3s ease-in-out;
 }
 
@@ -41,6 +43,17 @@
   100% {
     transform: none;
   }
+}
+
+.blog__images--first,
+.blog__images--second,
+.blog__images--third {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__images--second {
+  margin: 0px 30px;
 }
 
 .blog__images__text {

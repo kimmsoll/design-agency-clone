@@ -1,0 +1,72 @@
+@media screen and (min-width: 1800px) {
+  body {
+    padding: 30px 19vw 0px 19vw;
+  }
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1800px) {
+  body {
+    padding: 30px 15vw 0px 15vw;
+  }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1520px) {
+  body {
+    padding: 30px 11vw 0px 11vw;
+  }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1370px) {
+  body {
+    padding: 30px 7vw 0px 7vw;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1290px) {
+  body {
+    padding: 30px 3vw 0px 3vw;
+  }
+  .header__text__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  #img1 {
+    width: 513px;
+    height: 486px;
+  }
+  #man1,
+  #man2,
+  .about__text {
+    width: 314.5px;
+    height: 357px;
+  }
+  .about__text {
+    padding: 93.5px 42.5px 0px 46.75px;
+  }
+
+  .input--name,
+  .input--email {
+    width: 484.5px;
+    height: 38.25px;
+  }
+
+  .input--name > input,
+  .input--email > input {
+    width: 408px;
+  }
+
+  .input--message {
+    width: 484.5px;
+    height: 114.75px;
+  }
+
+  textarea {
+    width: 408px;
+    height: 85px;
+    padding: 10px;
+  }
+  #contact {
+    width: 484.5px;
+    height: 399.5px;
+  }
+}

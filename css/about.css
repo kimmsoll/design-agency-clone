@@ -15,7 +15,7 @@
 
 .about__contents {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
   animation: appearImage 3s ease-in-out;
 }
@@ -32,6 +32,14 @@
   100% {
     transform: none;
   }
+}
+
+.about__contents__img {
+  display: flex;
+}
+
+.about__image--second {
+  margin: 0px 30px;
 }
 
 .about__image__title {
@@ -59,7 +67,7 @@
 
 .about__text {
   width: 370px;
-  height: 420px;
+  height: 423px;
   padding: 110px 50px 0px 55px;
   box-sizing: border-box;
 }

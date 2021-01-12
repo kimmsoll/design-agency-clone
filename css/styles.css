@@ -8,12 +8,15 @@
 @import 'contact.css';
 @import 'footer.css';
 
+@import 'mediaquery/bigscreen.css';
+@import 'mediaquery/middlescreen.css';
+@import 'mediaquery/smallscreen.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 
 body {
-  width: 1900px;
+  width: 100vw;
   height: 5500px;
-  padding: 30px 370px 0px 370px;
   box-sizing: border-box;
   background-color: white;
   font-family: 'Montserrat', sans-serif;
