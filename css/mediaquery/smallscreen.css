@@ -38,6 +38,10 @@
     line-height: 40px;
   }
 
+  .header__text__subtitle {
+    font-size: 10px;
+  }
+
   .portfolio__title {
     font-size: 40px;
   }
@@ -269,19 +273,19 @@
 
 @media screen and (min-width: 360px) and (max-width: 540px) {
   body {
-    padding: 30px 5vw 0px 5vw;
+    padding: 30px 10vw 0px 10vw;
   }
 
   .navBar__logo {
-    width: 40px;
-    height: 27.5px;
+    width: 32.4px;
+    height: 22.3px;
   }
 
   .navBar {
     margin-bottom: 96px;
   }
   .navBar__menu > span {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   #img1 {
@@ -303,12 +307,12 @@
   }
 
   .header__text__title {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 40px;
   }
 
   .portfolio__title {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .portfolio {
@@ -320,6 +324,11 @@
 
   .portfolio__menu {
     margin-top: 30px;
+    font-size: 10px;
+  }
+  .portfolio__menu__division > span {
+    margin-left: 5px;
+    padding: 3px 9px;
   }
   .portfolio__images {
     margin-top: 30px;
@@ -352,7 +361,7 @@
   }
 
   .about__title__title {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 50px;
   }
 
@@ -367,8 +376,8 @@
 
   #man1,
   #man2 {
-    width: 222px;
-    height: 252px;
+    width: 177.6px;
+    height: 201.6px;
   }
 
   .about__image--second {
@@ -376,20 +385,23 @@
   }
 
   .about__image__title {
-    width: 175px;
-    height: 49px;
-    padding-top: 10.5px;
-    padding-left: 17.5px;
-    margin-top: -52px;
+    width: 140px;
+    height: 39.2px;
+    padding-top: 7px;
+    padding-left: 14px;
+    margin-top: -42px;
   }
 
   .about__image__title--first {
-    margin-bottom: 7px;
-    font-size: 13px;
+    margin-bottom: 5px;
+    font-size: 11px;
   }
 
+  .about__image__title--second {
+    font-size: 10px;
+  }
   .about__text {
-    width: 500px;
+    width: 360px;
     height: 200px;
     padding: 50px 0px;
   }
@@ -399,12 +411,12 @@
   }
 
   .about__text > h5 {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
   }
 
   .about__text > h6 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 35px;
   }
 
@@ -415,7 +427,7 @@
   .blog__title__title {
     margin-top: 150px;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .blog__title__subtitle {
@@ -426,8 +438,8 @@
   #room1,
   #room2,
   #room3 {
-    width: 407px;
-    height: 308px;
+    width: 325.6px;
+    height: 246.4px;
   }
 
   .blog__images {
@@ -446,10 +458,11 @@
   .blog__images__text > h5,
   .blog__images__text > h6 {
     line-height: 20px;
+    font-size: 10px;
   }
 
   .blog__images__text > h3 {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 15px;
   }
 
@@ -458,7 +471,7 @@
   }
 
   .contact__title__title {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .contact__content {
@@ -466,15 +479,26 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .contact__content__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__content__text__title {
+    font-size: 25px;
+  }
+
   .contact__content__text__button {
-    margin-bottom: 50px;
+    margin: 70px 0px;
   }
 
   #contact__image {
     box-sizing: border-box;
-    margin-top: 30px;
-    width: 342px;
-    height: 282px;
+    margin-top: 50px;
+    width: 312px;
+    height: 252px;
   }
 
   .contact__title__title,
@@ -489,17 +513,17 @@
   .input--name,
   .input--email,
   .input--message {
-    width: 456px;
+    width: 351.12px;
   }
 
   .input--name > input,
   .input--email > input {
-    width: 432px;
+    width: 332.64px;
     margin-left: 30px;
   }
 
   textarea {
-    width: 432px;
+    width: 332.64px;
     height: 100px;
     padding: 10px;
     margin-left: 30px;
@@ -510,7 +534,7 @@
   }
 
   .contact__icons__icon > h6 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .contact__sns {

@@ -27,7 +27,7 @@ blog.addEventListener("click",()=>{
 });
 
 contact.addEventListener("click", ()=>{
-    contacts.scrollIntoView({block:"center"});
+    contacts.scrollIntoView();
     window.location.reload();
 });
 
