@@ -277,19 +277,22 @@
   }
 
   .navBar__logo {
-    width: 32.4px;
-    height: 22.3px;
+    width: 16.8px;
+    height: 11.5px;
   }
 
   .navBar {
     margin-bottom: 96px;
   }
   .navBar__menu > span {
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 9px;
   }
 
   #img1 {
-    display: none;
+    width: 342px;
+    height: 324px;
+    margin-bottom: 50px;
   }
 
   header {
@@ -307,12 +310,22 @@
   }
 
   .header__text__title {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
   }
 
+  .header__text__subtitle {
+    font-size: 8px;
+  }
+
+  .header__text > button {
+    width: 126px;
+    height: 35px;
+    font-size: 9px;
+  }
+
   .portfolio__title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .portfolio {
@@ -322,13 +335,18 @@
     margin-bottom: 150px;
   }
 
+  .portfolio__button > button {
+    width: 140px;
+    height: 35px;
+    font-size: 9px;
+  }
   .portfolio__menu {
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 9px;
   }
   .portfolio__menu__division > span {
-    margin-left: 5px;
-    padding: 3px 9px;
+    margin-left: 3px;
+    padding: 2px 6px;
   }
   .portfolio__images {
     margin-top: 30px;
@@ -336,14 +354,14 @@
 
   #img2,
   #img5 {
-    width: 222px;
-    height: 180px;
+    width: 148px;
+    height: 120px;
   }
 
   #img3,
   #img4 {
-    width: 222px;
-    height: 300px;
+    width: 148px;
+    height: 200px;
   }
 
   #img2,
@@ -361,12 +379,12 @@
   }
 
   .about__title__title {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 50px;
   }
 
   .about__title__subtitle {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .about__contents {
@@ -376,8 +394,8 @@
 
   #man1,
   #man2 {
-    width: 177.6px;
-    height: 201.6px;
+    width: 148px;
+    height: 168px;
   }
 
   .about__image--second {
@@ -385,38 +403,38 @@
   }
 
   .about__image__title {
-    width: 140px;
-    height: 39.2px;
+    width: 100px;
+    height: 35px;
     padding-top: 7px;
-    padding-left: 14px;
-    margin-top: -42px;
+    padding-left: 8px;
+    margin-top: -38px;
   }
 
   .about__image__title--first {
     margin-bottom: 5px;
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .about__image__title--second {
-    font-size: 10px;
+    font-size: 8px;
   }
   .about__text {
-    width: 360px;
+    width: 300px;
     height: 200px;
     padding: 50px 0px;
   }
   .about__text > h3 {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .about__text > h5 {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 20px;
   }
 
   .about__text > h6 {
-    font-size: 10px;
+    font-size: 9px;
     margin-top: 35px;
   }
 
@@ -427,19 +445,19 @@
   .blog__title__title {
     margin-top: 150px;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .blog__title__subtitle {
     margin-bottom: 39px;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   #room1,
   #room2,
   #room3 {
-    width: 325.6px;
-    height: 246.4px;
+    width: 259px;
+    height: 196px;
   }
 
   .blog__images {
@@ -458,11 +476,11 @@
   .blog__images__text > h5,
   .blog__images__text > h6 {
     line-height: 20px;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .blog__images__text > h3 {
-    font-size: 13px;
+    font-size: 9px;
     margin-bottom: 15px;
   }
 
@@ -471,7 +489,11 @@
   }
 
   .contact__title__title {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .contact__title__subtitle {
+    font-size: 9px;
   }
 
   .contact__content {
@@ -487,7 +509,13 @@
   }
 
   .contact__content__text__title {
-    font-size: 25px;
+    font-size: 18px;
+  }
+
+  .input--name > span,
+  .input--email > span,
+  .input--message > span {
+    font-size: 9px;
   }
 
   .contact__content__text__button {
@@ -497,8 +525,8 @@
   #contact__image {
     box-sizing: border-box;
     margin-top: 50px;
-    width: 312px;
-    height: 252px;
+    width: 285px;
+    height: 235px;
   }
 
   .contact__title__title,
@@ -513,28 +541,36 @@
   .input--name,
   .input--email,
   .input--message {
-    width: 351.12px;
+    width: 300px;
   }
 
   .input--name > input,
   .input--email > input {
-    width: 332.64px;
-    margin-left: 30px;
+    width: 250px;
+    margin-left: 20px;
   }
 
   textarea {
-    width: 332.64px;
-    height: 100px;
-    padding: 10px;
+    width: 230px;
     margin-left: 30px;
+  }
+
+  .contact__content__text__button {
+    width: 119px;
+    height: 35px;
+    font-size: 9px;
   }
 
   .contact__icons {
     padding: 70px 0px;
   }
 
+  .contact__icons__icon > i {
+    font-size: 30px;
+  }
+
   .contact__icons__icon > h6 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .contact__sns {
@@ -543,19 +579,20 @@
 
   .contact__sns > i {
     margin: 0px 35px 70px 35px;
+    font-size: 30px;
   }
 
   .footer__logo > img {
-    width: 72px;
-    height: 41.6px;
+    width: 45px;
+    height: 26px;
   }
 
   .footer__logo > span {
-    font-size: 9px;
-    margin-left: 24px;
+    font-size: 7px;
+    margin-left: 9px;
   }
 
   .footer__btn {
-    font-size: 9px;
+    font-size: 8px;
   }
 }
