@@ -1,41 +1,47 @@
-const work = document.getElementById("work");
-const about = document.getElementById("about");
-const blog = document.getElementById("blog");
-const contact = document.getElementById("contact");
-const backToTop = document.getElementById("footer__btn");
-const home = document.querySelector(".navBar__logo");
+const menus = document.getElementsByClassName("navBar__menu__menu");
 
-const portfolio = document.querySelector(".portfolio__menu");
-const aboutContents = document.querySelector(".about");
-const blogImages = document.querySelector(".blog");
-const contacts = document.querySelector(".contact__content");
-const nav = document.querySelector(".navBar");
+const work = document.querySelector(".portfolio__menu");
+const about = document.querySelector(".about");
+const blog = document.querySelector(".blog");
+const contact = document.querySelector(".contact__content");
 
-function goto(place){
-    place.scrollIntoView();
+const logo = document.querySelector(".navBar__logo")
+const home = document.querySelector(".navBar");
+const backToTop = document.querySelector("#footer__btn");
+
+function gotoHome(){
+    home.scrollIntoView();
     window.location.reload();
-}
+};
 
-work.addEventListener('click', ()=> {
-    goto(portfolio);
+logo.addEventListener("click", ()=>{
+    gotoHome();
 });
-
-about.addEventListener("click", ()=>{
-    goto(aboutContents);
-});
-
-blog.addEventListener("click",()=>{
-    goto(blogImages);
-});
-
-contact.addEventListener("click", ()=>{
-goto(contacts);
-});
-
 backToTop.addEventListener("click", ()=>{
-    goto(nav);
+    gotoHome();
+
 });
 
-home.addEventListener("click", ()=>{
-    goto(nav);
-});
+Array.from(menus).forEach((menu) =>
+  menu.addEventListener("click", handleClick)
+);
+
+function handleClick(event) {
+    const name = event.target.id;
+    if(name == "work"){
+        work.scrollIntoView();
+        window.location.reload();
+    }
+    else if(name == "about"){
+        about.scrollIntoView();
+        window.location.reload();
+    }
+    else if(name == "blog"){
+        blog.scrollIntoView();
+        window.location.reload();
+    }
+    else if(name == "contact"){
+        contact.scrollIntoView();
+        window.location.reload();
+    }
+};
