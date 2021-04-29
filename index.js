@@ -11,32 +11,31 @@ const blogImages = document.querySelector(".blog");
 const contacts = document.querySelector(".contact__content");
 const nav = document.querySelector(".navBar");
 
-work.addEventListener('click', ()=>{
-portfolio.scrollIntoView();
-window.location.reload();
+function goto(place){
+    place.scrollIntoView();
+    window.location.reload();
+}
+
+work.addEventListener('click', ()=> {
+    goto(portfolio);
 });
 
 about.addEventListener("click", ()=>{
-    aboutContents.scrollIntoView();
-    window.location.reload();
+    goto(aboutContents);
 });
 
 blog.addEventListener("click",()=>{
-    blogImages.scrollIntoView();
-    window.location.reload();
+    goto(blogImages);
 });
 
 contact.addEventListener("click", ()=>{
-    contacts.scrollIntoView();
-    window.location.reload();
+goto(contacts);
 });
 
 backToTop.addEventListener("click", ()=>{
-    nav.scrollIntoView({block:"center"});
-    window.location.reload();
+    goto(nav);
 });
 
 home.addEventListener("click", ()=>{
-    nav.scrollIntoView({block:"center"});
-    window.location.reload();
+    goto(nav);
 });
